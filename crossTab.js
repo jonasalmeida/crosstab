@@ -1,4 +1,4 @@
-console.log('vcf.js loaded');
+console.log('crossTab.js loaded');
 
 // this will come handy if you're hosting this form GDrive
 // find . -name "Icon*" -exec rm -f '{}' +
@@ -94,7 +94,7 @@ VCF.buildUI=function(id){ // main UI
 		div = document.createElement('div');div.id=id;
 		document.body.appendChild(div);	
 	}
-	div.innerHTML='[<a href="https://github.com/ibl/vcf" target="_blank">source code</a>] Load VCF file:';
+	div.innerHTML='[<a href="https://github.com/jonasalmeida/crosstab" target="_blank">source code</a>] Load VCF file:';
 	console.log('UI build')
 	// Read local files
 	var ipf = document.createElement('input'); // input file API
